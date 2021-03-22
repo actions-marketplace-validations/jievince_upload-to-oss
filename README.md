@@ -8,7 +8,7 @@
 - `key-id`: OSS AccessKeyId
 - `key-secret`: OSS AccessKeySecret
 - `region`: 区域，如 `oss-cn-shenzhen`，和 endpoint 二选一
-- `endpoint`: 优先级高于 region，可填写内网节点、加速节点，和 region 二选一
+- `endpoint`: 优先级高于 region，可填写内网节点、加速节点，和 region 二选一, only available in dbc0fe
 - `bucket`: Bucket 名称
 - `asset-path`: 本地资源路径
 - `target-path`: OSS 对象存储路径
